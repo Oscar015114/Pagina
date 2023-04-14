@@ -8,7 +8,7 @@
 
 @section('content')
     <a href="{{route ("producto.create")}}" class="btn btn primary">CREAR</a>
-    <table class="table table-dark table striped mt-4">
+    <table class="table table-bordered table-striped dt-responsive tablas" >
         <thead>
             <tr>
                 <th scope="col">ID</th>
@@ -28,7 +28,7 @@
                     <td>{{$producto->categoria}}</td>
                     <td>{{$producto->stock}}</td>
                     <td>
-                        <a class="btn btn info">Editar</a>
+                        <a href="/productos/{{$producto->id}}/edit"  class="btn btn info" type="button" >Editar</a>
                         <button class="btn btn danger">Eliminar</button>
                     </td>
 
