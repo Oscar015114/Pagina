@@ -26,7 +26,7 @@
         <input id="stock" name="stock" type="text" class="form-control" tabindex="4">
     </div>
     <div class="mb-3">
-        <a href="{{route('producto.index')}}" class="btn btn secondary" tabindex="5">Cancelar</a>
+        <a href="{{route('producto.index')}}" class="btn btn secondary" tabindex="5">Regresar</a>
         <button type="submit" class="btn btn primary" tabindex="6">Guardar</button>
     </div>
 

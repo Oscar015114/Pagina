@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    <a href="{{route ("producto.create")}}" class="btn btn primary">CREAR</a>
+    <a href="{{route ("producto.create")}}" class="btn btn-primary">CREAR</a>
     <table class="table table-bordered table-striped dt-responsive tablas" >
         <thead>
             <tr>
@@ -28,8 +28,8 @@
                     <td>{{$producto->categoria}}</td>
                     <td>{{$producto->stock}}</td>
                     <td>
-                        <a href="/productos/{{$producto->id}}/edit"  class="btn btn info" type="button" >Editar</a>
-                        <button class="btn btn danger">Eliminar</button>
+                        <a href="/productos/{{$producto->id}}/edit"  class="btn btn-info" type="button" >Editar</a>
+                        <button class="btn btn-danger">Eliminar</button>
                     </td>
 
                 </tr>
